@@ -1,5 +1,7 @@
 # Android API Core Library
 
+[![](https://jitpack.io/v/Coderkube-App/Android-API-Core.svg)](https://jitpack.io/#Coderkube-App/Android-API-Core)
+
 A robust, reusable Android network library built on top of **Retrofit**, **OkHttp**, and **Coroutines**, designed following Clean Architecture principles. `api-core` serves as a centralized networking framework providing automatic error handling, state wrapping, dynamic headers, Compose compatibility, and Hilt injection out of the box.
 
 ## Features
@@ -31,9 +33,7 @@ Add the dependency in your app-level `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    // Replace 'YourUsername' and 'YourRepo' with your GitHub details
-    // Replace 'Tag' with the specific release version or 'master-SNAPSHOT'
-    implementation("com.github.YourUsername:YourRepo:Tag")
+    implementation("com.github.Coderkube-App:Android-API-Core:1.0.2")
 }
 ```
 
